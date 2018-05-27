@@ -99,7 +99,7 @@ nvml_handle * nvml_create()
 #define  libnvidia_ml "%PROGRAMFILES%\\NVIDIA Corporation\\NVSMI\\nvml.dll"
 #else
 	/* linux assumed */
-#define  libnvidia_ml "libnvidia-ml.so"
+#define  libnvidia_ml "libnvidia-ml.so.1"
 #endif
 
 	char tmp[512];
